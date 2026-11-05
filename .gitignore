@@ -1,0 +1,13 @@
+# Private virtual environment created by syncsort.py on first launch
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# Files the program can write (saved scans and exported lists)
+*.cache
+only_in_target.txt
+only_in_master.txt
+*.log

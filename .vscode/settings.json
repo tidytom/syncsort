@@ -1,0 +1,10 @@
+{
+    // syncsort.py builds its own virtual environment named ".venv" on first
+    // run. VS Code auto-detects a ".venv" folder in the workspace root, so
+    // Pylance resolves Pillow / pymupdf and imports stop showing as missing.
+    // These settings point the editor and integrated terminal at it on both
+    // Windows (.venv\Scripts\python.exe) and Linux (.venv/bin/python).
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.autoImportCompletions": true
+}

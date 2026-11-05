@@ -1,0 +1,12 @@
+# Runtime dependencies for syncsort.py
+# These are installed automatically into a private virtual environment
+# (.venv) the first time you run the script. This file is provided
+# for reference / manual installation.
+#
+# Note: tkinter is also required but is NOT listed here — it is part of the
+# Python standard library and ships with the base Python interpreter, so it
+# cannot be installed with pip. See the README for platform instructions.
+
+send2trash>=1.5.0
+Pillow
+pymupdf
