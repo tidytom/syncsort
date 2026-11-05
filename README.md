@@ -1,8 +1,6 @@
 # SyncSort
 A desktop app for Windows (and Linux) that finds duplicate files, compares two folders, and helps you clean up safely, for anyone with messy photo, document or backup folders.
 
-> Screenshot: add `docs/screenshot.png` (placeholder line — leave it exactly like this for GUI apps)
-
 ## What it does
 - Finds duplicate files inside one folder, or files in a "cleanup" folder that already exist in a "master" folder.
 - Lists files that are only in the cleanup folder, and files that are only in the master folder.
